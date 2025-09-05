@@ -1,0 +1,6 @@
+a)SELECT MANAGER_ID FROM Employees
+b)
+SELECT Employees.FIRST_NAME, Employees.LAST_NAME, Departaments.DEPARTAMENT_NAME
+FROM Employees employees
+INNER JOIN Departaments departaments ON departaments.DEPARTAMENT_id == employees.EMPLOYEE_ID
+WHERE salary <=8500
