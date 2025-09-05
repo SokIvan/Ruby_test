@@ -2,5 +2,5 @@ a)SELECT MANAGER_ID FROM Employees
 b)
 SELECT Employees.FIRST_NAME, Employees.LAST_NAME, Departaments.DEPARTAMENT_NAME
 FROM Employees employees
-INNER JOIN Departaments departaments ON departaments.MANAGER_ID == employees.EMPLOYEE_ID
+INNER JOIN Departaments departaments ON departaments.MANAGER_ID == employees.MANAGER_ID
 WHERE salary <=8500
